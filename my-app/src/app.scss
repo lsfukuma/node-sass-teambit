@@ -1,1 +1,7 @@
-@import "variables";
+@import '_normalize';
+/**** end normalize ******/
+@import "_variables";
+@import "_mixins" ;
+@import "_common" ;
+@import "_header" ;
+@import "_footer" ;
