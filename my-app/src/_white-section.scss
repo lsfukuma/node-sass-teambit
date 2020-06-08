@@ -1,0 +1,29 @@
+section {
+    background-color: $font_white;
+    height: 800px;
+}
+
+.develop-people {
+    padding-top: 175px;
+
+    h1 {
+        line-height: 1.4;
+        font-size: 50px;
+    }
+}
+
+.develop-people-left {
+    width: 50%;
+    float: left;
+}
+
+.develop-people-right {
+    width: 50%;
+    float: right;
+    img {
+        max-height: 400px;
+
+
+
+    }
+}

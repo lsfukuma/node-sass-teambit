@@ -25,8 +25,9 @@ header {
 
 .navbar {
     position: fixed;
-    width: 90%;
+    width: 100%;
     border-bottom: 0.5px solid $border_header;
+    background-color: $font_white;
     display: flex;
     justify-content: space-between;
     align-items: center;

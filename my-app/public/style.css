@@ -386,6 +386,8 @@ template {
   padding: 0;
   font-family: "Arial";
   line-height: 1.6;
+  color: #58402c;
+  font-weight: bold;
 }
 
 a {
@@ -442,8 +444,9 @@ header {
 
 .navbar {
   position: fixed;
-  width: 90%;
+  width: 100%;
   border-bottom: 0.5px solid #E9E6E4;
+  background-color: #FFFFFF;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -466,5 +469,33 @@ header {
 
 .navbar-right a:hover {
   color: #30488F;
+}
+
+section {
+  background-color: #FFFFFF;
+  height: 800px;
+}
+
+.develop-people {
+  padding-top: 175px;
+}
+
+.develop-people h1 {
+  line-height: 1.4;
+  font-size: 50px;
+}
+
+.develop-people-left {
+  width: 50%;
+  float: left;
+}
+
+.develop-people-right {
+  width: 50%;
+  float: right;
+}
+
+.develop-people-right img {
+  max-height: 400px;
 }
 
