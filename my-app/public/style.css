@@ -403,6 +403,7 @@ ul {
 }
 
 .btn-header {
+  color: #30488F;
   border: 1px solid #30488F;
   height: 35px;
   line-height: 35px;
@@ -412,9 +413,17 @@ ul {
   background-color: #FFFFFF;
 }
 
+.btn-header i {
+  color: #30488F;
+}
+
 .btn-header:hover {
   color: #FFFFFF;
   background-color: #30488F;
+}
+
+.btn-header i:hover {
+  color: #FFFFFF;
 }
 
 header {
@@ -473,11 +482,7 @@ header {
 
 section {
   background-color: #FFFFFF;
-  height: 800px;
-}
-
-.develop-people {
-  padding-top: 175px;
+  padding: 175px 0;
 }
 
 .develop-people h1 {
@@ -485,9 +490,45 @@ section {
   font-size: 50px;
 }
 
+.develop-people h2 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
 .develop-people-left {
   width: 50%;
   float: left;
+}
+
+.develop-people-left button {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  height: 35px;
+  line-height: 35px;
+  font-weight: bold;
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #30488F;
+}
+
+.develop-people-left button i {
+  color: #FFFFFF;
+}
+
+.develop-people-left span {
+  font-weight: normal;
+  padding: 0 10px;
+  color: #bdb5af;
+}
+
+.develop-people-left p {
+  color: #58402c;
+  padding-top: 20px;
+}
+
+.develop-people-left p a {
+  font-weight: normal;
 }
 
 .develop-people-right {
@@ -496,6 +537,6 @@ section {
 }
 
 .develop-people-right img {
-  max-height: 400px;
+  max-width: 100%;
 }
 

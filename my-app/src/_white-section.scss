@@ -1,29 +1,48 @@
 section {
     background-color: $font_white;
-    height: 800px;
+    padding: 175px 0;
 }
 
 .develop-people {
-    padding-top: 175px;
-
     h1 {
         line-height: 1.4;
         font-size: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: normal;
+        margin-bottom: 40px;
     }
 }
 
 .develop-people-left {
     width: 50%;
     float: left;
+    button {
+        @include button ($font_white , $font_blue);
+        & i {
+            color: $font_white;
+        }
+    }
+    span {
+        font-weight: normal;
+        padding: 0 10px;
+        color: #bdb5af;
+    }
+    p {
+        color: $font_brown;
+        padding-top: 20px;
+        a {
+            font-weight: normal;
+        }
+    }
 }
 
 .develop-people-right {
     width: 50%;
     float: right;
     img {
-        max-height: 400px;
-
-
-
+        max-width: 100%;
     }
 }

@@ -22,15 +22,15 @@ ul {
 //buttons
 
 .btn-header {
-    border: 1px solid $font_blue;
-    height: 35px;
-    line-height: 35px;
-    font-weight: bold;
-    padding: 0 10px;
-    border-radius: 5px;
-    background-color: $font_white;
+    @include button ($font_blue ,  $font_white);
+    & i {
+        color: $font_blue;
+    }
     &:hover {
         color: $font_white;
         background-color: $font_blue;
+    }
+    & i:hover { //corrigir --
+        color: $font_white;
     }
 }
