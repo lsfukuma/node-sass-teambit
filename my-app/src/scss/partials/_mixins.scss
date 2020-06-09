@@ -5,6 +5,11 @@
     align-items: $align;
 }
 
+@mixin displayInline (){
+    display: inline-block;
+    vertical-align: middle;
+}
+
 @mixin button ($font_color, $bg_color, $font_weight ){
     color: $font_color;
     border: 1px solid $font_color;

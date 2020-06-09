@@ -6411,8 +6411,8 @@ ul {
 }
 
 h1 {
-  line-height: 1.4;
   font-size: 50px;
+  line-height: 1.4;
 }
 
 h2 {
@@ -6455,6 +6455,7 @@ img {
 header {
   font-size: 12px;
   width: 100%;
+  z-index: 9;
 }
 
 .cookies {
@@ -6480,7 +6481,7 @@ header {
   border-bottom: 0.5px solid #E9E6E4;
   background-color: #FFFFFF;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -6501,7 +6502,7 @@ header {
 
 section.bg_white {
   background-color: #FFFFFF;
-  padding: 120px 0;
+  padding: 80px 0;
 }
 section.bg_white p {
   font-size: 1.125rem;
@@ -6568,6 +6569,7 @@ section.bg_rose {
 
 .get-started h4 {
   position: relative;
+  padding: 50px;
 }
 
 .get-started img {
@@ -6575,4 +6577,33 @@ section.bg_rose {
   width: 36px;
   position: absolute;
   transform: translateY(-40px);
+  z-index: 5;
+}
+
+.quote {
+  background-color: #FFFFFF;
+  border: 1px solid #bdb5af;
+  border-radius: 5px;
+  position: relative;
+  margin: 30px 0;
+  padding: 30px 0;
+}
+.quote p {
+  text-align: left;
+  padding: 20px;
+}
+.quote img {
+  position: absolute;
+  width: 37px;
+  height: 39px;
+  z-index: 5;
+}
+
+.logo-footer-left {
+  display: inline-block;
+  vertical-align: middle;
+}
+.logo-footer-left a {
+  color: #30488F;
+  font-weight: bold;
 }

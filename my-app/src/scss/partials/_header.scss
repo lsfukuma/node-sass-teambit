@@ -1,6 +1,7 @@
 header {
     font-size: 12px;
     width: 100%;
+    z-index: 9;
 }
 
 .cookies {
@@ -28,13 +29,12 @@ header {
     border-bottom: 0.5px solid $border_header;
     background-color: $bg_white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .navbar-right {
-    display: inline-block;
-    vertical-align: middle;
+    @include displayInline ; 
 
     li {
         display: inline-block;

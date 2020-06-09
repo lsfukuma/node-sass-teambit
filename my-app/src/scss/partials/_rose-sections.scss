@@ -14,13 +14,15 @@ section.bg_rose {
     border-bottom: 1px solid $border_main;
 }
 
+
+//section 4
 .get_started {
     text-align: center;
 }
 
 .get-started h4 {
     position: relative;
-
+    padding: 50px;
 }
 
 .get-started img {
@@ -28,4 +30,24 @@ section.bg_rose {
     width: 36px;
     position: absolute;
     transform: translateY(-40px);
+    z-index: 5;
+}
+
+.quote {
+    background-color: $bg_white;
+    border: 1px solid $border_main;
+    border-radius: 5px;
+    position: relative;
+    margin: 30px 0;
+    padding: 30px 0;
+    p {
+        text-align: left;
+        padding: 20px;
+    }
+    img {
+        position: absolute;
+        width: 37px;
+        height: 39px;
+        z-index: 5;
+    }
 }
