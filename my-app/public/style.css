@@ -6424,6 +6424,10 @@ h4 {
   font-size: 40px;
 }
 
+h6 {
+  font-size: 1.125rem;
+}
+
 img {
   max-width: 100%;
   padding: 50px 20px;
@@ -6431,31 +6435,9 @@ img {
      object-fit: cover;
 }
 
-.btn-header {
-  color: #30488F;
-  border: 1px solid #30488F;
-  height: 35px;
-  line-height: 35px;
-  font-weight: bold;
-  padding: 0 10px;
-  border-radius: 5px;
-  background-color: #FFFFFF;
-}
-.btn-header i {
-  color: #30488F;
-}
-.btn-header:hover {
-  color: #FFFFFF;
-  background-color: #30488F;
-}
-.btn-header:hover i {
-  color: #FFFFFF;
-}
-
 header {
   font-size: 12px;
   width: 100%;
-  z-index: 9;
 }
 
 .cookies {
@@ -6481,13 +6463,14 @@ header {
   border-bottom: 0.5px solid #E9E6E4;
   background-color: #FFFFFF;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  z-index: 9;
 }
 
 .navbar-right {
   display: inline-block;
-  vertical-align: middle;
 }
 .navbar-right li {
   display: inline-block;
@@ -6498,6 +6481,27 @@ header {
 }
 .navbar-right a:hover {
   color: #30488F;
+}
+
+.btn-header {
+  color: #30488F;
+  border: 1px solid #30488F;
+  height: 35px;
+  line-height: 35px;
+  font-weight: bold;
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+.btn-header i {
+  color: #30488F;
+}
+.btn-header:hover i {
+  color: #FFFFFF;
+  background-color: #30488F;
+}
+.btn-header:hover i {
+  color: #FFFFFF;
 }
 
 section.bg_white {
@@ -6517,6 +6521,12 @@ a.learn-more {
   margin-bottom: 40px;
 }
 
+span {
+  font-weight: normal;
+  padding: 0 10px;
+  color: #bdb5af;
+}
+
 .sign-up-btn button {
   color: #FFFFFF;
   border: 1px solid #FFFFFF;
@@ -6532,12 +6542,6 @@ a.learn-more {
 }
 .sign-up-btn button:hover {
   background-color: #233569;
-}
-
-span {
-  font-weight: normal;
-  padding: 0 10px;
-  color: #bdb5af;
 }
 
 .work-example {
@@ -6565,26 +6569,28 @@ section.bg_rose {
 
 .get_started {
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .get-started h4 {
-  position: relative;
   padding: 50px;
 }
 
-.get-started img {
-  height: 36px;
-  width: 36px;
+.img-happy {
   position: absolute;
   transform: translateY(-40px);
-  z-index: 5;
+  z-index: 1;
+}
+
+.co-founders {
+  float: left;
+  height: 30px;
 }
 
 .quote {
   background-color: #FFFFFF;
   border: 1px solid #bdb5af;
   border-radius: 5px;
-  position: relative;
   margin: 30px 0;
   padding: 30px 0;
 }
@@ -6592,18 +6598,34 @@ section.bg_rose {
   text-align: left;
   padding: 20px;
 }
-.quote img {
-  position: absolute;
+
+.quote-img img {
+  text-align: left;
   width: 37px;
   height: 39px;
-  z-index: 5;
+}
+
+footer {
+  padding: 50px;
+  margin: 70px 0;
 }
 
 .logo-footer-left {
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .logo-footer-left a {
   color: #30488F;
   font-weight: bold;
+}
+
+.footer-right a {
+  font-size: 0.875rem;
+  line-height: 2.4;
+  padding: 10px 0;
+}
+.footer-right a:hover {
+  color: #30488F;
 }

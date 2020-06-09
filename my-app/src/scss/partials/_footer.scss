@@ -1,13 +1,23 @@
+footer {
+    padding: 50px;
+    margin: 70px 0;
+}
+
 .logo-footer-left {
-    @include displayInline;
-    img {
-        // height: 50px;
-        // width: 50px;
-        // margin-bottom: 15px;
-    }
+    @include displayFlex(row, center, center);
     a {
         color: $font_blue;
         font-weight: bold;
     }
+}
 
+.footer-right {
+    a {
+        font-size: .875rem;
+        line-height: 2.4;
+        padding: 10px 0;
+        &:hover {
+            color: $font_blue;
+        }
+    }
 }

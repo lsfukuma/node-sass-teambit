@@ -10,11 +10,18 @@ a.learn-more {
     color: $font_blue;
 }
 
+//section 1
 .develop-people {
     h2 {
         font-weight: normal;
         margin-bottom: 40px;
     }
+}
+
+span {
+        font-weight: normal;
+        padding: 0 10px;
+        color: $font_or;
 }
 
 .sign-up-btn button {
@@ -25,12 +32,6 @@ a.learn-more {
     &:hover {
         background-color: $bg_hover_blue;
     }
-}
-
-span {
-        font-weight: normal;
-        padding: 0 10px;
-        color: $font_or;
 }
 
 // .slide img {

@@ -10,6 +10,7 @@ section.bg_rose {
     padding: 80px;
 }
 
+//section 2
 .disengagement {
     border-bottom: 1px solid $border_main;
 }
@@ -18,36 +19,38 @@ section.bg_rose {
 //section 4
 .get_started {
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .get-started h4 {
-    position: relative;
     padding: 50px;
 }
 
-.get-started img {
-    height: 36px;
-    width: 36px;
+.img-happy {
     position: absolute;
     transform: translateY(-40px);
-    z-index: 5;
+    z-index: 1;
+}
+
+.co-founders {
+    float: left;
+    height: 30px;
 }
 
 .quote {
     background-color: $bg_white;
     border: 1px solid $border_main;
     border-radius: 5px;
-    position: relative;
     margin: 30px 0;
     padding: 30px 0;
     p {
         text-align: left;
         padding: 20px;
     }
-    img {
-        position: absolute;
-        width: 37px;
-        height: 39px;
-        z-index: 5;
-    }
+}
+
+.quote-img img {
+    text-align: left;
+    width: 37px;
+    height: 39px;
 }

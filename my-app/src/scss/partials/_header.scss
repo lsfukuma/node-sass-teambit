@@ -1,7 +1,6 @@
 header {
     font-size: 12px;
     width: 100%;
-    z-index: 9;
 }
 
 .cookies {
@@ -28,16 +27,15 @@ header {
     width: 100%;
     border-bottom: 0.5px solid $border_header;
     background-color: $bg_white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include displayFlex (row, space-around, center);
+    z-index: 9;
 }
 
 .navbar-right {
-    @include displayInline ; 
+    @include displayInline ;
 
     li {
-        display: inline-block;
+        @include displayInline;
         padding: 10px;
     }
 
@@ -46,5 +44,19 @@ header {
             &:hover {
                 color: $font_blue;
         }
+    }
+}
+
+.btn-header {
+    @include button ($font_blue ,  $font_white , bold);
+    & i {
+        color: $font_blue;
+    }
+    &:hover i {
+        color: $font_white;
+        background-color: $font_blue;
+    }
+    &:hover i {
+        color: $font_white;
     }
 }

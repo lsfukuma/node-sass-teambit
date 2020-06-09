@@ -7,7 +7,6 @@
 
 @mixin displayInline (){
     display: inline-block;
-    vertical-align: middle;
 }
 
 @mixin button ($font_color, $bg_color, $font_weight ){
