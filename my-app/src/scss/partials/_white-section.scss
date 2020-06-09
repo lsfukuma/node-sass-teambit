@@ -1,15 +1,10 @@
 section.bg_white {
     background-color: $bg_white;
-    padding: 175px 0;
-    height: 650px;
+    padding: 120px 0;
+
 }
 
 .develop-people {
-    h1 {
-        line-height: 1.4;
-        font-size: 50px;
-    }
-
     h2 {
         font-weight: normal;
         margin-bottom: 40px;
@@ -17,8 +12,7 @@ section.bg_white {
 }
 
 .develop-people-left {
-    width: 50%;
-    float: left;
+
     button {
         @include button ($font_white , $bg_blue);
         & i {
@@ -29,19 +23,5 @@ section.bg_white {
         font-weight: normal;
         padding: 0 10px;
         color: #bdb5af;
-    }
-    p {
-        color: $font_brown;
-        padding-top: 15px;
-        a {
-            font-weight: normal;
-        }
-    }
-}
-
-.develop-people-right {
-    width: 50%;
-    img {
-        max-width: 100%;
     }
 }

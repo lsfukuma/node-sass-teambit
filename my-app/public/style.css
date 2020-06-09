@@ -6398,14 +6398,31 @@ template {
 
 a {
   text-decoration: none;
+  font-weight: normal;
+}
+
+p {
+  padding-top: 15px;
+  font-weight: normal;
 }
 
 ul {
   list-style: none;
 }
 
+h1 {
+  line-height: 1.4;
+  font-size: 50px;
+}
+
 h2 {
   font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 50px 20px;
 }
 
 .btn-header {
@@ -6430,9 +6447,7 @@ h2 {
 }
 
 header {
-  color: #58402c;
   font-size: 12px;
-  font-weight: bold;
   width: 100%;
 }
 
@@ -6446,8 +6461,8 @@ header {
 
 #logo {
   float: left;
-  width: 110px;
-  height: 35px;
+  max-width: 100%;
+  height: 100%;
 }
 #logo img {
   padding: 10px;
@@ -6464,7 +6479,6 @@ header {
 }
 
 .navbar-right {
-  float: right;
   display: inline-block;
   vertical-align: middle;
 }
@@ -6473,7 +6487,7 @@ header {
   padding: 10px;
 }
 .navbar-right a {
-  color: #58402c;
+  font-weight: bold;
 }
 .navbar-right a:hover {
   color: #30488F;
@@ -6481,23 +6495,14 @@ header {
 
 section.bg_white {
   background-color: #FFFFFF;
-  padding: 175px 0;
-  height: 650px;
+  padding: 120px 0;
 }
 
-.develop-people h1 {
-  line-height: 1.4;
-  font-size: 50px;
-}
 .develop-people h2 {
   font-weight: normal;
   margin-bottom: 40px;
 }
 
-.develop-people-left {
-  width: 50%;
-  float: left;
-}
 .develop-people-left button {
   color: #FFFFFF;
   border: 1px solid #FFFFFF;
@@ -6516,25 +6521,10 @@ section.bg_white {
   padding: 0 10px;
   color: #bdb5af;
 }
-.develop-people-left p {
-  color: #58402c;
-  padding-top: 15px;
-}
-.develop-people-left p a {
-  font-weight: normal;
-}
-
-.develop-people-right {
-  width: 50%;
-}
-.develop-people-right img {
-  max-width: 100%;
-}
 
 section.bg_rose {
   background-color: #FFE7D2;
   margin-top: 150px;
-  height: 2600px;
 }
 
 .bg_rose h2 {
@@ -6542,11 +6532,6 @@ section.bg_rose {
   line-height: 1.53;
   text-align: center;
   padding: 80px;
-}
-
-.bg_rose img {
-  max-width: 100%;
-  padding: 50px 20px;
 }
 
 .disengagement {
