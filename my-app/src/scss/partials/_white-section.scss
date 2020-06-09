@@ -1,6 +1,7 @@
-section {
-    background-color: $font_white;
+section.bg_white {
+    background-color: $bg_white;
     padding: 175px 0;
+    height: 650px;
 }
 
 .develop-people {
@@ -10,7 +11,6 @@ section {
     }
 
     h2 {
-        font-size: 30px;
         font-weight: normal;
         margin-bottom: 40px;
     }
@@ -20,7 +20,7 @@ section {
     width: 50%;
     float: left;
     button {
-        @include button ($font_white , $font_blue);
+        @include button ($font_white , $bg_blue);
         & i {
             color: $font_white;
         }
@@ -32,7 +32,7 @@ section {
     }
     p {
         color: $font_brown;
-        padding-top: 20px;
+        padding-top: 15px;
         a {
             font-weight: normal;
         }
@@ -41,7 +41,6 @@ section {
 
 .develop-people-right {
     width: 50%;
-    float: right;
     img {
         max-width: 100%;
     }

@@ -6404,8 +6404,8 @@ ul {
   list-style: none;
 }
 
-.container {
-  width: 100%;
+h2 {
+  font-size: 20px;
 }
 
 .btn-header {
@@ -6433,6 +6433,7 @@ header {
   color: #58402c;
   font-size: 12px;
   font-weight: bold;
+  width: 100%;
 }
 
 .cookies {
@@ -6478,9 +6479,10 @@ header {
   color: #30488F;
 }
 
-section {
+section.bg_white {
   background-color: #FFFFFF;
   padding: 175px 0;
+  height: 650px;
 }
 
 .develop-people h1 {
@@ -6488,7 +6490,6 @@ section {
   font-size: 50px;
 }
 .develop-people h2 {
-  font-size: 30px;
   font-weight: normal;
   margin-bottom: 40px;
 }
@@ -6517,7 +6518,7 @@ section {
 }
 .develop-people-left p {
   color: #58402c;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 .develop-people-left p a {
   font-weight: normal;
@@ -6525,8 +6526,29 @@ section {
 
 .develop-people-right {
   width: 50%;
-  float: right;
 }
 .develop-people-right img {
   max-width: 100%;
+}
+
+section.bg_rose {
+  background-color: #FFE7D2;
+  margin-top: 150px;
+  height: 2600px;
+}
+
+.bg_rose h2 {
+  font-size: 26px;
+  line-height: 1.53;
+  text-align: center;
+  padding: 80px;
+}
+
+.bg_rose img {
+  max-width: 100%;
+  padding: 50px 20px;
+}
+
+.disengagement {
+  border-bottom: 1px solid #bdb5af;
 }

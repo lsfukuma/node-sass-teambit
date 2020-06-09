@@ -1,0 +1,21 @@
+section.bg_rose {
+    background-color: $bg_rose;
+    margin-top: 150px;
+    height: 2600px;
+}
+
+.bg_rose h2{
+    font-size: 26px;
+    line-height: 1.53;
+    text-align: center;
+    padding: 80px;
+}
+
+.bg_rose img {
+    max-width: 100%;
+    padding: 50px 20px;
+}
+
+.disengagement {
+    border-bottom: 1px solid $border_main;
+}
