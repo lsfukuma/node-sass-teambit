@@ -33,24 +33,30 @@ section.bg_rose {
 }
 
 .co-founders {
-    float: left;
-    height: 30px;
+    @include displayFlex(row, flex-start , center );
+    p {
+        font-size: .875rem;
+        color: $font_blue;
+    }
+    small {// non allineato
+        text-align: center;
+    }
 }
 
 .quote {
     background-color: $bg_white;
     border: 1px solid $border_main;
-    border-radius: 5px;
+    border-radius: $radius_5;
     margin: 30px 0;
-    padding: 30px 0;
+    padding: $padding_p;
     p {
         text-align: left;
-        padding: 20px;
+        padding: $padding_p;
     }
 }
 
 .quote-img img {
-    text-align: left;
-    width: 37px;
-    height: 39px;
+    height: 135px;
+    position: absolute;
+    transform: translate(-372px ,-80px);
 }
