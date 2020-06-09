@@ -1,9 +1,16 @@
-@mixin button ($font_color, $bg_color ){
+@mixin displayFlex ($direction , $justify , $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin button ($font_color, $bg_color, $font_weight ){
     color: $font_color;
     border: 1px solid $font_color;
     height: 35px;
     line-height: 35px;
-    font-weight: bold;
+    font-weight: $font_weight;
     padding: 0 10px;
     border-radius: 5px;
     background-color: $bg_color;

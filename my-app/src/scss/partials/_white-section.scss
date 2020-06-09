@@ -1,7 +1,13 @@
 section.bg_white {
     background-color: $bg_white;
     padding: 120px 0;
+    p {
+        font-size: 1.125rem;
+    }
+}
 
+a.learn-more {
+    color: $font_blue;
 }
 
 .develop-people {
@@ -11,17 +17,26 @@ section.bg_white {
     }
 }
 
-.develop-people-left {
-
-    button {
-        @include button ($font_white , $bg_blue);
-        & i {
-            color: $font_white;
-        }
+.sign-up-btn button {
+    @include button ($font_white , $bg_blue , normal);
+    & i {
+        color: $font_white;
     }
-    span {
+    &:hover {
+        background-color: $bg_hover_blue;
+    }
+}
+
+span {
         font-weight: normal;
         padding: 0 10px;
-        color: #bdb5af;
-    }
+        color: $font_or;
+}
+
+// .slide img {
+//     max-width: 768px;
+// }
+
+.work-example {
+    @include displayFlex (row, space-between, center)
 }

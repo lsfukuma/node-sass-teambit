@@ -27,19 +27,25 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 26px;
+    line-height: 1.53;
+}
+
+h4{
+    font-size: 40px;
 }
 
 img {
     max-width: 100%;
-    max-height: 100%;
+    // max-height: 100%;
     padding: 50px 20px;
+    object-fit: cover;
 }
 
 //buttons
 
 .btn-header {
-    @include button ($font_blue ,  $font_white);
+    @include button ($font_blue ,  $font_white , bold);
     & i {
         color: $font_blue;
     }
@@ -47,7 +53,7 @@ img {
         color: $font_white;
         background-color: $font_blue;
     }
-    & i:hover { //corrigir --
+    &:hover i {
         color: $font_white;
     }
 }

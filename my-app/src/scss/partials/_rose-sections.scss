@@ -13,3 +13,19 @@ section.bg_rose {
 .disengagement {
     border-bottom: 1px solid $border_main;
 }
+
+.get_started {
+    text-align: center;
+}
+
+.get-started h4 {
+    position: relative;
+
+}
+
+.get-started img {
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    transform: translateY(-40px);
+}

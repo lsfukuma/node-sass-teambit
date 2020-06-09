@@ -6416,13 +6416,19 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 26px;
+  line-height: 1.53;
+}
+
+h4 {
+  font-size: 40px;
 }
 
 img {
   max-width: 100%;
-  max-height: 100%;
   padding: 50px 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .btn-header {
@@ -6442,7 +6448,7 @@ img {
   color: #FFFFFF;
   background-color: #30488F;
 }
-.btn-header i:hover {
+.btn-header:hover i {
   color: #FFFFFF;
 }
 
@@ -6497,29 +6503,47 @@ section.bg_white {
   background-color: #FFFFFF;
   padding: 120px 0;
 }
+section.bg_white p {
+  font-size: 1.125rem;
+}
+
+a.learn-more {
+  color: #30488F;
+}
 
 .develop-people h2 {
   font-weight: normal;
   margin-bottom: 40px;
 }
 
-.develop-people-left button {
+.sign-up-btn button {
   color: #FFFFFF;
   border: 1px solid #FFFFFF;
   height: 35px;
   line-height: 35px;
-  font-weight: bold;
+  font-weight: normal;
   padding: 0 10px;
   border-radius: 5px;
   background-color: #30488F;
 }
-.develop-people-left button i {
+.sign-up-btn button i {
   color: #FFFFFF;
 }
-.develop-people-left span {
+.sign-up-btn button:hover {
+  background-color: #233569;
+}
+
+span {
   font-weight: normal;
   padding: 0 10px;
   color: #bdb5af;
+}
+
+.work-example {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 section.bg_rose {
@@ -6536,4 +6560,19 @@ section.bg_rose {
 
 .disengagement {
   border-bottom: 1px solid #bdb5af;
+}
+
+.get_started {
+  text-align: center;
+}
+
+.get-started h4 {
+  position: relative;
+}
+
+.get-started img {
+  height: 36px;
+  width: 36px;
+  position: absolute;
+  transform: translateY(-40px);
 }
