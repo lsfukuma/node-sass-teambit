@@ -86,10 +86,10 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/app.js":
-/*!********************!*\
-  !*** ./src/app.js ***!
-  \********************/
+/***/ "./src/js/app.js":
+/*!***********************!*\
+  !*** ./src/js/app.js ***!
+  \***********************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -97,10 +97,10 @@
 
 /***/ }),
 
-/***/ "./src/app.scss":
-/*!**********************!*\
-  !*** ./src/app.scss ***!
-  \**********************/
+/***/ "./src/scss/app.scss":
+/*!***************************!*\
+  !*** ./src/scss/app.scss ***!
+  \***************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -109,14 +109,14 @@
 /***/ }),
 
 /***/ 0:
-/*!*****************************************!*\
-  !*** multi ./src/app.js ./src/app.scss ***!
-  \*****************************************/
+/*!*************************************************!*\
+  !*** multi ./src/js/app.js ./src/scss/app.scss ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/leticiafukuma/Desktop/boolean/esercizi/esercizio33 - node-sass-teambit/node-sass-teambit/my-app/src/app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! /Users/leticiafukuma/Desktop/boolean/esercizi/esercizio33 - node-sass-teambit/node-sass-teambit/my-app/src/app.scss */"./src/app.scss");
+__webpack_require__(/*! /Users/leticiafukuma/Desktop/boolean/esercizi/esercizio33 - node-sass-teambit/node-sass-teambit/my-app/src/js/app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! /Users/leticiafukuma/Desktop/boolean/esercizi/esercizio33 - node-sass-teambit/node-sass-teambit/my-app/src/scss/app.scss */"./src/scss/app.scss");
 
 
 /***/ })
